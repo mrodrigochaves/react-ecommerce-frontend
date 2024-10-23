@@ -1,10 +1,9 @@
-// src/pages/Home.tsx
 import React from 'react';
 
 const Home: React.FC = () => {
   return (
     <div>
-      Hello from Home
+      Hello from Home!
     </div>
   );
 };
