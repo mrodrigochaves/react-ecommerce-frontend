@@ -4,6 +4,7 @@ import BannerSection from '../components/banner/BannerSection';
 import Footer from '../components/footer/Footer';
 import InfoSection from '../components/info/InfoSection';
 import Category from '../components/categories/Category';
+import OurProducts from '../components/products/OurProducts';
 
 
 const Home: React.FC = () => {
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
       <Header />
       <BannerSection />
       <Category />
+      <OurProducts />
       <InfoSection />
       <Footer />
     </div>
