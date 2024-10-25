@@ -1,0 +1,51 @@
+.infoSection {
+  background-color: #faf3ea;
+  .container {
+    background-color: #faf3ea;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .featureGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    max-width: 1334px;
+    width: 100%;
+  }
+
+  .featureItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .icon-info {
+    width: 60px;
+    height: 60px;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .title {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    color: #242424;
+  }
+
+  .subtitle {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #898989;
+  }
+}
